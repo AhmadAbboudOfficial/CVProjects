@@ -1,0 +1,53 @@
+
+package loan;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+/**
+ *
+ * @author moh
+ */
+public class Features {
+    
+     private List<DataSet> all_features ; // all features and label
+     private String name ; // name of the feature that i want to extract 
+     public int counter ; // counter to count 
+    public Features(List<DataSet> all_features, String name) { // features instatiation its all coloumn names as list , name is name of the feature 
+        this.all_features = all_features;
+        this.name = name;
+    }
+    public List<SeperateFeatures> getFeature(){
+        
+        int count = 0 ; 
+        List<SeperateFeatures> list = new ArrayList<SeperateFeatures>();
+        
+        for (DataSet d : all_features){
+            SeperateFeatures f = new SeperateFeatures(d.getName(this.name),d.label);
+            list.add(f);
+            count++;
+        }
+        this.counter = count;
+        
+        return list;
+    }
+    public int countAllYes(){
+        int count = 0 ;
+        for (DataSet d : all_features){
+            if (d.label.contains("yes")){
+                count++;
+            }
+        }
+        return count ;
+    }
+    public int countAllNo(){
+        int count = 0 ;
+        for (DataSet d : all_features){
+            if (d.label.contains("no")){
+                count++;
+            }
+        }
+        return count ;
+    }  
+}

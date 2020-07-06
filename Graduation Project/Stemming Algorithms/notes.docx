@@ -1,0 +1,8 @@
+porter stemmer edit suggetion
+    1-first passing the file through code not by command line
+        solution is to use an array list called DIRs of Strings of course
+        and the changement in code will be in four places
+    2-instead of printing the stemmed word , storing it
+        solution is to create an array list called Stemmed ,then adding each a single , it will take some time.
+        //hint u,ch are in code ,then u+v are a stemmed word So, Stemmed.add(u.concat( (char) ch ));
+that's it

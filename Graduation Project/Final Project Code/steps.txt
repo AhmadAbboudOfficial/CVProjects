@@ -1,0 +1,33 @@
+=======steps=======
+ Step 1: Classifier.tar.gz file
+ 	-> this compressed file contains an eclipse project that could work on an eclipse IDE OR
+ 	   being imported by Netbeans IDE
+ 	   After that....
+ Step 2: configuration.zip file
+ 	-> this compressed file contains all R related data and an images folder , both should be extracted in the Java project folder(Classifier)
+ 	   After that....
+ Step 3: R environment setup
+ 	-> installing all .dep packges by order for dependency issues
+ 		1- r-base-core
+ 		2- r-recommended
+ 		3- r-base
+ 		4- r-base-dev
+ 		,Then
+ 		type R in terminal and install the following packages:
+ 			NLP
+ 			caret
+ 			tm
+ 			LiblineaR
+ 		After that....
+ Step 4: Java project edit
+ 	-> Model.java
+ 		* line 16, change loadFile function stopwords.txt file location in configuration folder
+ 		* line 20, change saveFile function content.txt file location as a second parameter in configuration folder
+ 		* line 24, change Run_Command function script.R file location in configuration folder added to this location the command 'Rscript '
+ 	-> View.java
+ 		* line 83, changes ImageIcon constructor Loading.gif location in images folder using any text editor
+ 	-> lib.java
+ 		* leave as it is.
+ Final step: script.R in configuration folder in R_workspace folder
+ 	-> script.R
+ 		* line 2, change setwd function configuration folder location. 

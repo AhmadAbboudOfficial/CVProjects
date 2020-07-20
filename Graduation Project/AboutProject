@@ -1,0 +1,19 @@
+Identification of the class of English text among several classes
+
+Description:	
+    the aim of this project is to classify an unknown English text into one of several classes.
+    collection of files or a data set containing the English text files will be gathered from data set websites i.e. bbc, kaggle...etc.
+    each file will go over through the project pipeline which it is data select, preprocessing (filtering),model(classification) and finally testing the project.
+    depending on the content of each file will be classified into one of a group of classes(business-entertainment-politics-sport-tech).
+    techniques will be used to differentiate between and classify each file to the corresponding class. Rates will be calculated.
+Role:
+    • writing java code using Netbeans IDE
+    • building project diagrams on lucidchart.com
+    • testing algorithms used and project on my Linux Mint 19 cinnamon
+    • preparing project book(SRS+SDD) and making cover on the internet
+Tools:
+    • java SE on Netbeans IDE
+    • English stemmers i.e. porter stemmer and Stanford core NLP stemmer
+    • R programming language
+Grade:
+    Excellent

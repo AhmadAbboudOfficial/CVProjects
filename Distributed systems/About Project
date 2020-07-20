@@ -1,0 +1,8 @@
+DS folder is the project folder made on Netbeans IDE
+
+first, run the server side
+second, run the client side and GUI appears with either to login or signup with an account data saved on a database using JDBC and phpmyadmin, localhost server
+third, after a signup action data will be saved to database and cached on pc itself, then UI with products to buy with whatever quantity to specify.
+       if a login ,then if it is admin account UI with control of adding, deleting or updating products.
+       else products UI and buying action also saved into database
+finally, ending the session simply by exiting the application.

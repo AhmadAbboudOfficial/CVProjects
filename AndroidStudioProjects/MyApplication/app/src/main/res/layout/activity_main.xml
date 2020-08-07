@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/usernametext"
+            android:fontFamily="sans-serif-medium"
+            android:layout_margin="15dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter username......"
+            android:id="@+id/username"
+            android:layout_toRightOf="@+id/usernametext"
+            android:layout_margin="15dp"
+            android:inputType="TODO" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/userpasswordtext"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_margin="15dp"
+            android:layout_below="@+id/usernametext"
+            android:layout_toLeftOf="@+id/userpassword"
+            android:layout_toStartOf="@+id/userpassword" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password......"
+            android:id="@+id/userpassword"
+            android:inputType="textPassword"
+            android:layout_toRightOf="@+id/userpasswordtext"
+            android:layout_below="@+id/username"
+            android:layout_margin="15dp"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

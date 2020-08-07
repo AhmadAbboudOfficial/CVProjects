@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">البرنامج_تدريب2</string>
+    <string name="title_activity_2">الصفحه2</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="phone_txt">الهاتف</string>
+    <string name="Msg_txt">الرساله</string>
+    <string name="close_txt">إغلاق</string>
+    <string name="back_txt">عوده</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">layout_practice2</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="phone_txt">Phone</string>
+    <string name="Msg_txt">Message</string>
+    <string name="close_txt">Close</string>
+    <string name="back_txt">Back</string>
+</resources>

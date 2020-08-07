@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Age Calculator</string>
+    <string name="Year_txt">Year of borth</string>
+    <string name="edt_hint_txt">Enter your year of birth....</string>
+    <string name="Age_txt">Age</string>
+    <string name="btn_calculate">Calculate</string>
+</resources>

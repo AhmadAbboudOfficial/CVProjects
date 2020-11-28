@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Currency Converter</string>
-    <string name="enter_amount_msg">Enter the amount you want to convert</string>
-    <string name="input_amount_hint">Amount in £</string>
-    <string name="button_convert">CONVERT!</string>
-</resources>

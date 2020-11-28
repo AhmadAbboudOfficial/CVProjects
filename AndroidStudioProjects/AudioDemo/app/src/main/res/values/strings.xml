@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Audio Demo</string>
-    <string name="play_button_value">Play</string>
-    <string name="pause_button_value">Pause</string>
-</resources>

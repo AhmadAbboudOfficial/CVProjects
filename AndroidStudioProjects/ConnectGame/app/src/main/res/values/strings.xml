@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Connect 3</string>
-    <string name="play_again_btn">Play Again</string>
-    <string name="player_has_won"> player has won!</string>
-</resources>

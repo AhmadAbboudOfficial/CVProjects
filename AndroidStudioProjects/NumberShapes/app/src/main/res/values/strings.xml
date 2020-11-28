@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Number Shapes</string>
-    <string name="enter_number_text">Enter a number to check if it is square, traingular or both!</string>
-    <string name="edt_input_value_hint">Enter a number....</string>
-    <string name="test_number_btn">Test Number</string>
-</resources>
